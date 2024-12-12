@@ -1,0 +1,25 @@
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+
+
+swiper-container {
+    width: 400px;
+    height: 300px;
+
+}
+
+swiper-slide {
+   width: 100%;
+   height: 100%;
+}
+
+swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
